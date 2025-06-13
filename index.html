@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ordena los pasos - Ubuntu Server</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🧩 Ordena los pasos para instalar <span>Ubuntu Server</span>:</h1>
+
+    <div class="zone-container">
+      <div class="steps-zone">
+        <h3>Pasos disponibles:</h3>
+        <div class="steps" id="steps"></div>
+      </div>
+
+      <div class="drop-zone" id="dropZone">
+        <h3>Tu orden:</h3>
+      </div>
+    </div>
+
+    <button onclick="verificarOrden()">Verificar orden</button>
+    <p id="resultado"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
